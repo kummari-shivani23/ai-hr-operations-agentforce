@@ -1,0 +1,37 @@
+### Birthday Assistant Agent
+
+This agent helps HR teams manage and automate employee birthday celebrations.
+
+**Functionality**
+
+An HR Birthday Assistant Agent was created that allows HR to quickly retrieve employee birthday information and generate personalized birthday messages.
+
+HR can ask the agent questions such as:
+- “Whose birthday is today?”
+- “List upcoming employee birthdays.”
+
+The agent fetches employee data and provides the relevant information instantly.
+
+**Inputs**
+
+- Employee birthday  
+- Employee role  
+- Employee interests  
+- Employee hobbies  
+
+**Processing**
+
+1. The agent retrieves employee details from Salesforce records when HR queries about birthdays.
+2. It generates personalized birthday messages based on employee attributes such as role, interests, hobbies, and skills.
+3. In addition, a **scheduled Salesforce flow** runs every morning to check for employees whose birthday is on that day.
+4. The system automatically sends personalized birthday emails to the respective employees.
+
+**Output**
+
+- List of employees with birthdays (when HR queries the agent)  
+- AI-generated personalized birthday message  
+- Automated birthday email sent to employees  
+
+**Impact**
+
+This automation helps HR celebrate employee milestones consistently, improves employee engagement, and creates a more personalized workplace experience without manual effort.
